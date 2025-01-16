@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8">
-<title>Freaky Font Generator</title>
+<title>freaky Font Generator</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-        
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <style>
     .header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      background-color: #00C0E4;
-      padding: 10px 20px;
-      color: white;
-    }
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #h8f9fa; /* हल्का ग्रे रंग */
+    padding: 15px 30px; /* अधिक संतुलित पैडिंग */
+    color: #212529; /* गहरा ग्रे रंग */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* हल्का बॉक्स शैडो */
+    border-bottom: 1px solid #dee2e6; /* पतला बॉर्डर */
+    font-family: 'Roboto', sans-serif; /* आधुनिक फॉन्ट */
+    font-size: 16px; /* संतुलित फॉन्ट साइज */
+}
     .header .logo {
       display: flex;
       align-items: center;
@@ -59,6 +62,116 @@
     .menu-dropdown a:hover {
       background-color: #f0f0f0;
     }
+    
+   /* General Styles for Headings */
+h2, h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    margin: 20px 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/* Text Content Styling */
+div {
+    font-family: 'Arial', sans-serif;
+    padding: 0 15px;
+    line-height: 1.7;
+    text-align: justify;
+    color: #444;
+}
+
+ul {
+    padding-left: 20px;
+    list-style: none;
+}
+
+ul li {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+/* FAQ Section Styling */
+.schema-faq-code {
+    margin-top: 40px;
+}
+
+.faq-question {
+    padding-bottom: 10px;
+    margin-bottom: 18px;
+    border-bottom: 2px solid #eee;
+}
+
+.faq-q {
+    font-size: 18px;
+    font-weight: 600;
+    color: #555;
+}
+
+.faq-a {
+    font-size: 16px;
+    margin-top: 8px;
+    color: #666;
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    .faq-q {
+        font-size: 16px;
+    }
+
+    .faq-a {
+        font-size: 14px;
+    }
+
+    div {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .faq-q {
+        font-size: 15px;
+    }
+
+    .faq-a {
+        font-size: 13px;
+    }
+
+    div {
+        padding: 0 8px;
+    }
+.responsive-image {
+            max-width: 80%;
+            height: auto;
+        }
+}
+
   </style>
 </head>
 <body>
@@ -67,16 +180,15 @@
 
   <div class="header">
     <div class="logo">
-      <img src="https://allfreakytext.com/assets/logo-header.png" alt="Logo">
-      <span>Freaky Font Generator</span>
+      <img src="https://freakyfontgenerator.online/freaky-font.png" alt="Freaky Font Generator">
+      <span><a href="https://freakyfontgenerator.online">Freaky Font Generator</a></span>
     </div>
     <div class="menu-icon" onclick="toggleMenu()">☰</div>
   </div>
 
   <div class="menu-dropdown" id="menuDropdown">
-    <a href="#link1">Link 1</a>
+    <a href="https://hindi font generator.online">Hindi Font</a>
     <a href="#link2">Link 2</a>
-    <a href="#link3">Link 3</a>
   </div>
 
   <script>
@@ -98,14 +210,11 @@
       }
     });
   </script>
-
+<br>
+<div style="text-align: justify;">Welcome to <b>Freaky Font Generator</b>, one-click <u>Freaky Font Text Generator tool</u> for creating eye-catching and beautiful Freaky font styles. This free <b>Freaky Font generator online</b> allows you to type in normal text and Instantly Preview your Text in a Variety of Stylish Fonts from Top Popular 100+ Freaky fonts.</div><br>
 <!--- End Header --->
 
-<br>
-  <!--Tab to edit-->
-<h1 style="text-align:center;">Freaky Font Generator</h1><br>
-
-<textarea type="text" class="form-control freakytext" style="width:100%; margin-top:5px; background-color:#333333 !important; color:#ffffff" required="required" name="text" placeholder="Type Your Text Here.." value=""></textarea>
+<textarea type="text" class="form-control freakytext" style="width:100%; margin-top:5px; background-color:white !important; color:black" required="required" name="text" placeholder="Type or paste text here.." value=""></textarea>
 <br />
 <div id="result"><div class="input-group mb-3"><input type="text" class="form-control text-1" value="𝔓𝔯𝔢𝔳𝔦𝔢𝔴 𝔗𝔢𝔵𝔱" id="copy_0" readonly="readonly"><div class="input-group-append"><span class="input-group-text copybutton" style="cursor:pointer;" data-clipboard-action="copy" data-clipboard-target="#copy_0">Copy</span></div></div><div class="input-group mb-3"><input type="text" class="form-control text-2" value="𝕻𝖗𝖊𝖛𝖎𝖊𝖜 𝕿𝖊𝖝𝖙" id="copy_1" readonly="readonly"><div class="input-group-append"><span class="input-group-text copybutton" style="cursor:pointer;" data-clipboard-action="copy" data-clipboard-target="#copy_1">Copy</span></div></div><div class="input-group mb-3"><input type="text" class="form-control text-3" value="✋♪  Ƥ𝔯Ⓔᐯ𝔦乇ω т乇𝐗𝐭  😈🌷" id="copy_2" readonly="readonly"><div class="input-group-append"><span class="input-group-text copybutton" style="cursor:pointer;" data-clipboard-action="copy" data-clipboard-target="#copy_2">Copy</span></div></div><div class="input-group mb-3"><input type="text" class="form-control text-4" value="𝓟𝓻𝓮𝓿𝓲𝓮𝔀 𝓣𝓮𝔁𝓽" id="copy_3" readonly="readonly"><div class="input-group-append"><span class="input-group-text copybutton" style="cursor:pointer;" data-clipboard-action="copy" data-clipboard-target="#copy_3">Copy</span></div></div><div class="input-group mb-3"><input type="text" class="form-control text-5" value="𝒫𝓇𝑒𝓋𝒾𝑒𝓌 𝒯𝑒𝓍𝓉" id="copy_4" readonly="readonly"><div class="input-group-append"><span class="input-group-text copybutton" style="cursor:pointer;" data-clipboard-action="copy" data-clipboard-target="#copy_4">Copy</span></div></div><div class="input-group mb-3"><input type="text" class="form-control text-6" value="ℙ𝕣𝕖𝕧𝕚𝕖𝕨 𝕋𝕖𝕩𝕥" id="copy_5" readonly="readonly"><div class="input-group-append"><span class="input-group-text copybutton" style="cursor:pointer;" data-clipboard-action="copy" data-clipboard-target="#copy_5">Copy</span></div></div>
 <div class="input-group mb-3"><input type="text" class="form-control text-7" value="Ｐｒｅｖｉｅｗ Ｔｅｘｔ" id="copy_6" readonly="readonly"><div class="input-group-append"><span class="input-group-text copybutton" style="cursor:pointer;" data-clipboard-action="copy" data-clipboard-target="#copy_6">Copy</span></div></div><div class="input-group mb-3"><input type="text" class="form-control text-8" value="🐓 ⋆ 🐤  🎀  𝒫𝓇𝑒𝓋𝒾𝑒𝓌 𝒯𝑒𝓍𝓉  🎀  🐤 ⋆ 🐓" id="copy_7" readonly="readonly"><div class="input-group-append"><span class="input-group-text copybutton" style="cursor:pointer;" data-clipboard-action="copy" data-clipboard-target="#copy_7">Copy</span></div></div><div class="input-group mb-3"><input type="text" class="form-control text-9" value="ᴘʀᴇᴠɪᴇᴡ ᴛᴇxᴛ" id="copy_8" readonly="readonly"><div class="input-group-append"><span class="input-group-text copybutton" style="cursor:pointer;" data-clipboard-action="copy" data-clipboard-target="#copy_8">Copy</span></div></div><div class="input-group mb-3"><input type="text" class="form-control text-10" value="ʇxǝ⊥ ʍǝıʌǝɹԀ" id="copy_9" readonly="readonly"><div class="input-group-append"><span class="input-group-text copybutton" style="cursor:pointer;" data-clipboard-action="copy" data-clipboard-target="#copy_9">Copy</span></div></div><div class="input-group mb-3"><input type="text" class="form-control text-11" value="P⃣&nbsp;&nbsp;&nbsp;r⃣&nbsp;&nbsp;&nbsp;e⃣&nbsp;&nbsp;&nbsp;v⃣&nbsp;&nbsp;&nbsp;i⃣&nbsp;&nbsp;&nbsp;e⃣&nbsp;&nbsp;&nbsp;w⃣ &nbsp;&nbsp;&nbsp;T⃣&nbsp;&nbsp;&nbsp;e⃣&nbsp;&nbsp;&nbsp;x⃣&nbsp;&nbsp;&nbsp;t⃣" id="copy_10" readonly="readonly"><div class="input-group-append"><span class="input-group-text copybutton" style="cursor:pointer;" data-clipboard-action="copy" data-clipboard-target="#copy_10">Copy</span></div></div>
@@ -120,12 +229,65 @@
 </center>
 
 <hr/>
-<!-- Freaky Font Generator Tool Details -->
- <h1>Freaky Font Generator</h1>
- <p>freaky font generator tool detail </p> 
- <p>freaky font generator tool detail </p> 
+<!-- freaky Font Generator Tool Details -->
+<h2 style="text-align: center;">Freaky Font Generator Online</h2><div style="text-align: justify;">
+</div>
+
+
+<div style="text-align: justify;">Looking for a way to make your text stand out and grab attention? Whether you're creating a fun social media post, pulling off a prank, or just want to spice up your messages, our Freaky Font Generator is here to help. It’s free, easy to use, and lets you generate funky text in just a few clicks!</div><div style="text-align: justify;"><br>
+</div><h2 style="text-align: center;">What is a Freaky Font?</h2><div style="text-align: justify;">
+</div><div style="text-align: justify;">Freaky fonts are exactly what they sound like – quirky, fun, and sometimes downright weird fonts that give your text a unique vibe. Whether you want to make your posts look different or add a fun touch to a message, these fonts are perfect for grabbing attention. They’re ideal for social media, pranks, or even just standing out in a crowd of regular text.</div><div style="text-align: justify;"><br>
+</div><h2 style="text-align: center;">How Does the Freaky Font Generator Work?</h2><div style="text-align: justify;">
+</div><div style="text-align: justify;">Our Freaky Font Generator tool is super easy to use. Simply type in the text you want, choose from a variety of funky font styles, and hit the generate button. Instantly, your text will appear in the style you selected, and you can copy and paste it wherever you like. It's that simple! Whether you're posting on Instagram, texting a friend, or working on a creative project, this tool makes it easy to add a fun twist to any text.</div><div style="text-align: justify;"><br>
+</div><h3 style="text-align: center;">Freaky Text Messages Prank</h3><div style="text-align: justify;">
+</div><div style="text-align: justify;">Want to prank your friends or family? Our freaky text generator is perfect for creating fun and surprising messages. Send them quirky, offbeat text that’ll leave them laughing or scratching their heads. It’s a great way to add some excitement to your conversations, and your friends will love the playful surprise!</div><div style="text-align: justify;"><br>
+</div><h3 style="text-align: center;">Freaky Font Copy-Paste</h3><div style="text-align: center;">
+</div><div style="text-align: justify;">Once you’ve generated your freaky text, you can easily copy it and paste it anywhere. Whether you’re sharing it on social media, sending a message, or using it for a design project, our freaky font copy-paste feature makes it effortless. No more typing out the same old text—just copy, paste, and you’re good to go!</div><div style="text-align: justify;"><br>
+</div><h2 style="text-align: center;">Where Can I Use Freaky Text?</h2><div style="text-align: justify;">
+</div><div style="text-align: justify;">You can use freaky text wherever you want to add some flair! Here are a few places where it works wonders:</div><div style="text-align: justify;"><br>
+</div><div style="text-align: justify;"><ul><li>Social media posts (Facebook, Instagram, Twitter, etc.)</li></ul><ul><li>Text messages to friends, family, or anyone you want to impress</li></ul><ul><li>Creative projects like graphic design or posters</li></ul><ul><li>Pranks and fun messages to make someone’s day</li></ul></div><div style="text-align: justify;">
+</div><h2 style="text-align: center;">FAQ</h2><div>
+</div>
+
+<div class="schema-faq-code" itemscope="" itemtype="https://schema.org/FAQPage">
+    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
+        <h3 itemprop="name" class="faq-q" style="text-align: justify;">What is the Freaky Font?</h3>
+        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+             <p itemprop="text" class="faq-a" style="text-align: justify;">Freaky font is a fun, quirky style of font that makes your text stand out. It can be used for social media posts, pranks, or any creative project where you want to add a little bit of extra flair. It’s playful, cool, and definitely different from standard fonts!</p>
+        </div>
+    </div>
+
+    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
+        <h3 itemprop="name" class="faq-q" style="text-align: justify;">How to Get the Freaky Font?</h3>
+        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+             <p itemprop="text" class="faq-a" style="text-align: justify;">It’s easy! Just use our Freaky Font Generator tool. Type in your text, choose your favorite font style, and click generate. Once your text is ready, just copy it and paste it anywhere you want—on your website, social media, or in a text message.</p>
+        </div>
+    </div>
+
+    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
+        <h3 itemprop="name" class="faq-q" style="text-align: justify;">Can I Use Freaky Text for Pranks?</h3>
+        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+             <p itemprop="text" class="faq-a" style="text-align: justify;">Absolutely! Freaky text is perfect for pranks. You can send your friends some quirky, fun, and surprising messages that’ll definitely catch them off guard. It's all about having fun and making your conversations more interesting!</p>
+        </div>
+    </div>
+
+    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
+        <h3 itemprop="name" class="faq-q" style="text-align: justify;">How Do I Use the Freaky Text Generator?</h3>
+        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+             <p itemprop="text" class="faq-a" style="text-align: justify;">Using the Freaky Text Generator is super simple. Just type your text in the box, choose the font you like, and click generate. Once your funky text appears, just copy it and paste it wherever you want. It’s that easy!</p>
+        </div>
+    </div>
+
+    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
+        <h3 itemprop="name" class="faq-q" style="text-align: justify;">Is the Freaky Font Generator Free?</h3>
+        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+             <p itemprop="text" class="faq-a" style="text-align: justify;">Yes, the Freaky Font Generator is completely free to use. You can generate as many funky fonts and texts as you want without any charges. It’s a free tool available to everyone!
+</p>
+        </div>
+    </div>
+</div> 
  <hr/>
- <!-- End Freaky Font Generator Tool Details -->
+ <!-- End freaky Font Generator Tool Details -->
 
 
 
@@ -144,7 +306,7 @@
 <!-- 
 Author : Rohit Kumar
 Version : 0.0.2
-App Name : Freaky Text Generator
+App Name : freaky Text Generator
 Website: https://www.iamrohit.in
 Youtube: https://youtube.com/AskRohit 
 -->
@@ -664,21 +826,21 @@ function backward(text) { return $('#english-text').val(); }                //]]
 <script>
 $(function() { 
  /*if($.trim($("#freakytext").val())!='') { 
-    generateFreaky($("#freakytext").val());
+    generatefreaky($("#freakytext").val());
   } else {
-   generateFreaky("Preview Text");
+   generatefreaky("Preview Text");
   }*/
   
 $(".freakytext").keyup(function() { 
    $(".freakytext").val($(this).val());
    if($.trim($(this).val())!='') { 
-   generateFreaky($(this).val());
+   generatefreaky($(this).val());
    } else {
-   generateFreaky("Preview Text");
+   generatefreaky("Preview Text");
    }
  });
 var ct = 89;
-function generateFreaky(txt) {
+function generatefreaky(txt) {
   var freakyText = '';
      var result = forward(txt);
          var finalRes =  result.split('\n\n');
@@ -734,4 +896,10 @@ clearInterval(intv);
     });
     </script>
     </body>
+<footer style="background-color: #f8f9fa; padding: 10px 0; text-align: center; border-top: 1px solid #ddd; font-size: 14px; color: #555;">
+    <div>
+     <center>
+        © 2025 <a href="https://freakyfontgenerator.online"> Freakyfontgenerator.online</a></center>
+    </div>
+</footer>
     </html>
